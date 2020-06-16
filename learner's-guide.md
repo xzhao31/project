@@ -1,8 +1,10 @@
 # Learner's Guide
 Use this file to learn about the space-time model used in this project
 
+
 ## Introduction
 stuff
+
 
 ## Constructing a model
 The following sections use the ideas from Mr. Yongxiang (John) Zhang and Dr. Xuesong (Simon) Zhou in their open-source space-time diagram visualization tool for GMNS (https://github.com/YXZhangSWJTU/space-time-diagram_gmns). To make a space-time model, you will need to create 3 files and have Python version 3 or newer on your computer. The GMNS system requires all files to be in the csv format. See the example folder and follow along.
@@ -17,8 +19,7 @@ This file contains data on the nodes of the network, which can be intersections,
 |x_coord|the x-coordinate of the node's location. It can be in any units that you prefer|
 |y_coord|the y-coordinate of the node's location. It can be in any units that you prefer|
 
-In the food bank example, we have 6 nodes, each being a different food bank. ...
-
+In the food bank example, we have 6 nodes, each being a different food bank. %insert description here
 
 ### File: road_link.csv
 This file contains data about the roads--or links--connecting the nodes. This file has 7 standard columns. Their names and functions are described below.
@@ -32,6 +33,8 @@ This file contains data about the roads--or links--connecting the nodes. This fi
 |length|the length of the link, in the same units that x_coord and y_coord were assigned|
 |display_sequence|this is the order that the nodes will appear in on the space-time diagram. take a look at the to_node_id and make sure any duplicates are labeled as "-1" in display_sequence", otherwise multiple copies of the to_node_id (if not labeled in display_sequence as -1) will appear on the space-time diagram.|
 
+At this point, if you would like to visualize the network, refer to the NeXTA-GMNS software (https://github.com/xzhou99/nexta-gmns) and follow the instructions to download the package. The network should look like this: %insert image here
+
 ### File: agent.csv
 This file contains data about each agent that travels through the network, whether it be trucks, cars, or dogs. This file has 6 standard columns. Their names and functions are described below.
 
@@ -44,6 +47,12 @@ This file contains data about each agent that travels through the network, wheth
 |node_sequence|the order in which your agent travels to each node. Does it stop at 5 nodes before arriving at its destination, or does it take a direct path?|
 |time_sequence|the time that the agent arrives at each node. For example, at minute 2, it arrives at node 2, and at minute 3, it arrives at node 4|
 
-
 ### Python code
 Now, we will take the data from all 3 files and construct the actual visual. We will use the files for a food bank network. You can access these files in the examples folder. Download them to your computer, then open the file space_time.py
+
+
+## Applications
+
+
+## Make your own!
+Now that you know how to make space-time diagrams for a simple food bank network, you should try to create your own network and use this method to model it! Just follow the examples for creating files, and work from there.
