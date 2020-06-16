@@ -5,10 +5,33 @@ Use this file to learn about the space-time model used in this project
 stuff
 
 ## Constructing a model
-To make a space-time model, you will need to create 3 files and have Python version 3 or newer on your computer. The GMNS system requires all files to be in the csv format. See the example folder for information about how to format your data.
+The following sections use the ideas from Mr. Yongxiang (John) Zhang and Dr. Xuesong (Simon) Zhou in their open-source space-time diagram visualization tool for GMNS (https://github.com/YXZhangSWJTU/space-time-diagram_gmns). To make a space-time model, you will need to create 3 files and have Python version 3 or newer on your computer. The GMNS system requires all files to be in the csv format. See the example folder and follow along.
 
 ### File: node.csv
+This file contains data on the nodes of the network, which can be intersections, parks, food banks, or beaches. This file has 4 standard columns. Their names and functions are described below.
+
+|column|function|
+|---|---|
+|name|(optional) what is the name of this node?|
+|node_id|assign each node a unique identifier|
+|x_coord|the x-coordinate of the node's location. It can be in any units that you prefer|
+|y_coord|the y-coordinate of the node's location. It can be in any units that you prefer|
+
+In the food bank example, we have 6 nodes, each being a different food bank. ...
+
+
 ### File: road_link.csv
+This file contains data about the roads--or links--connecting the nodes. This file has 7 standard columns. Their names and functions are described below.
+
+|column|function|
+|---|---|
+|name|(optional) what is the name of this link?|
+|road_link_id|assign a unique identifier to each link|
+|from_node_id|which two nodes does this link connect? assign one as the "from" node and the other as the "to" node|
+|to_node_id|see above|
+|length|the length of the link, in the same units that x_coord and y_coord were assigned|
+|display_sequence|this is the order that the nodes will appear in on the space-time diagram. take a look at the to_node_id and make sure any duplicates are labeled as "-1" in display_sequence", otherwise multiple copies of the to_node_id (if not labeled in display_sequence as -1) will appear on the space-time diagram.|
+
 ### File: agent.csv
 This file contains data about each agent that travels through the network, whether it be trucks, cars, or dogs. This file has 6 standard columns. Their names and functions are described below.
 
@@ -23,4 +46,4 @@ This file contains data about each agent that travels through the network, wheth
 
 
 ### Python code
-Now, we will take the data from all 3 files and construct the actual visual. Open the file space_time.py
+Now, we will take the data from all 3 files and construct the actual visual. We will use the files for a food bank network. You can access these files in the examples folder. Download them to your computer, then open the file space_time.py
