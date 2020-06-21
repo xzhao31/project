@@ -1,4 +1,4 @@
-# space-time-model
+# Space-Time Model
 
 This project attempts to create a space-time diagram to model the pickup and delivery of packages in an area.
 
