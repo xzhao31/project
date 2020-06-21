@@ -3,7 +3,9 @@ Use this file to learn about the space-time model used in this project
 
 
 ## Introduction
-stuff
+Mathematical modeling is the necessary prerequisite towards understanding, diagnosing, and solving the world's issues. When faced with problems like geographical modeling, the task becomes a degree harder. This is because physical space has many dimensions, and it becomes harder to plot data on a 2D graph. There are many layers in a network, and they are all interconnected, and it becomes hard to track all the different components. Problems that require mathematical modeling including finding the least-cost route, tracking shipments from various warehouses to different depots, and arranging pickup and drop-off of passengers.
+
+As stated in the README file, the GMNS framework is a new way to store and read csv files for geographical data. The NeXTA-GMNS software creates a visual network for using those files, made out of static **nodes** and **links** which join various nodes. Space-time diagrams attempt to model that network on a 2D graph. 
 
 
 ## Constructing a model
@@ -48,7 +50,9 @@ This file contains data about each agent that travels through the network, wheth
 |time_sequence|the time that the agent arrives at each node. For example, at minute 2, it arrives at node 2, and at minute 3, it arrives at node 4|
 
 ### Python code
-Now, we will take the data from all 3 files and construct the actual visual. We will use the files for a food bank network. You can access these files in the examples folder. Download them to your computer, then open the file space_time.py
+Now, we will take the data from all 3 files and construct the actual visual. In this example, we will use the files for a food bank network. You can access these files in the examples folder. Download them to your computer, then open the file space_time.py. For now, just run the program. The picture below should show up:
+
+example.png
 
 
 ## Applications
