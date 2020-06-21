@@ -52,7 +52,9 @@ This file contains data about each agent that travels through the network, wheth
 ### Python code
 Now, we will take the data from all 3 files and construct the actual visual. In this example, we will use the files for a food bank network. You can access these files in the examples folder. Download them to your computer, then open the file space_time.py. For now, just run the program. The picture below should show up:
 
-example.png
+![](example/food-banks/image.png)
+
+We have 6 nodes in the file node.csv, and they are all lined up on the y-axis. Links can be seen in road_link.csv and can be visualized using the NeXTA-GMNS software. In our food bank example, there are 4 agents. As an example, agent 1 travels from Matthew's Crossing at 5:04 to Resurrection Street Ministry at 5:05. Agent 2 starts from United Food Bank, makes stops at Paz de Cristo Community Center, Resurrection Street Ministry, Tempe First United Methodist Church, then ends at Society of St. Vincent de Paul. The space-time diagram is a way to see the progress of one or many vehicles along various paths. It would be rather difficult to show both space and time on a 2D map, so the space-time diagram is effective in depicting that.
 
 
 ## Applications
