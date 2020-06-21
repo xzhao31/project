@@ -1,0 +1,5 @@
+agent_id,o_node_id,d_node_id,agent_type,node_sequence,time_sequence
+1,2,4,normal-speed,2;4;,0504;0505;
+2,1,5,normal-speed,1;3;4;6;5;,0506;0507;0508;0509;0510;
+3,6,4,normal-speed,6;3;4;,0511;0512;0513;
+4,5,3,normal-speed,5;2;3;,0514;0515;0516;
