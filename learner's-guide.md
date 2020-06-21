@@ -3,7 +3,7 @@ Use this file to learn about the space-time model used in this project
 
 
 ## Introduction
-Mathematical modeling is the necessary prerequisite towards understanding, diagnosing, and solving the world's issues. When faced with problems like geographical modeling, the task becomes a degree harder. This is because physical space has many dimensions, and it becomes harder to plot data on a 2D graph. There are many layers in a network, and they are all interconnected, and it becomes hard to track all the different components. Problems that require mathematical modeling including finding the least-cost route, tracking shipments from various warehouses to different depots, and arranging pickup and drop-off of passengers.
+Mathematical modeling is the necessary prerequisite towards understanding, diagnosing, and solving the world's issues. When faced with problems like geographical modeling, the task becomes a degree harder. This is because physical space has many dimensions, and it is difficult to plot data on a 2D graph. Furthermore, there are many layers in a network, and they are all interconnected, so it becomes hard to track all the different components. Example problems that require mathematical modeling include finding the least-cost route, tracking shipments from various warehouses to different depots, and arranging pickup and drop-off of passengers.
 
 As stated in the README file, the GMNS framework is a new way to store and read csv files for geographical data. The NeXTA-GMNS software creates a visual network for using those files, made out of static **nodes** and **links** which join various nodes. Space-time diagrams attempt to model that network on a 2D graph. 
 
