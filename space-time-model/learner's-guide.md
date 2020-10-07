@@ -1,11 +1,20 @@
 # Learner's Guide
-Use this file to learn about the space-time model used in this project
+This project attempts to create a space-time diagram to model the pickup and delivery of packages in an area.
 
+The General Modeling Network Specification (GMNS) project by Volpe/FHWA in partnership with Zephyr Foundation is a tool with which humans and machines can understand routable road network files. Read more about the system and file formats here: https://github.com/zephyr-data-specs/GMNS
+
+The Network EXplorer for Traffic Analysis (NeXTA) Graphical User Interface for General Modeling Network Specification (GMNS), also known as NeXTA-GMNS, uses the GMNS technology to visualize complex traffic flow dynamics. Read more about the software and download the package here: https://github.com/xzhou99/nexta-gmns
+
+Mr. Yongxiang (John) Zhang, Ph.D. Candidate at Southwest Jiaotong University and Dr. Xuesong (Simon) Zhou at Arizona State University use the NeXTA-GMNS approach to visualize transportation in 2D space as a function of time. It uses Python to read the data in NeXTA-GMNS files and converts it to a graph. Read more here: https://github.com/YXZhangSWJTU/space-time-diagram_gmns
+
+Goals of the space-time model in this project (building upon projects described above):
+1. model pickup and delivery of packages along a supply chain
+2. help researchers and students learn about and optimize for transportation planning
 
 ## Introduction
 Mathematical modeling is the necessary prerequisite towards understanding, diagnosing, and solving the world's issues. When faced with problems like geographical modeling, the task becomes a degree harder. This is because physical space has many dimensions, and it is difficult to plot data on a 2D graph. Furthermore, there are many layers in a network, and they are all interconnected, so it becomes hard to track all the different components. Example problems that require mathematical modeling include finding the least-cost route, tracking shipments from various warehouses to different depots, and arranging pickup and drop-off of passengers.
 
-As stated in the README file, the GMNS framework is a new way to store and read csv files for geographical data. The NeXTA-GMNS software creates a visual network for using those files, made out of static **nodes** and **links** which join various nodes. Space-time diagrams attempt to model that network on a 2D graph. 
+As stated above, the GMNS framework is a new way to store and read csv files for geographical data. The NeXTA-GMNS software creates a visual network for using those files, made out of static **nodes** and **links** which join various nodes. Space-time diagrams attempt to model that network on a 2D graph. 
 
 
 ## Constructing a model
