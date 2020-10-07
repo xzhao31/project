@@ -1,0 +1,18 @@
+﻿NAME,ADDRESS,CITY,COUNTY,ZIP_CODE,EXCESSFOOD_TONYEAR_LOWEST,EXCESSFOOD_TONYEAR_HIGHEST,UNIQUEID,AVG,PREDICTED_FOOD_AVAILABILITY
+"Dtis, LLC",4502 W Monterosa St,Phoenix,Maricopa County,85031,26080,83652.8,FMP41928,54866.4,27433.2
+"Suntree Snack Foods, LLC",4502 W Monterosa St,Phoenix,Maricopa County,85031,4770,15300,FMP41929,10035,5017.5
+"Cafe Valley, Inc.",7000 W Buckeye Rd,Phoenix,Maricopa County,85043,4240,13600,FMP52709,8920,4460
+United General Bakery Inc.,3655 W Washington St,Phoenix,Maricopa County,85009,2674.5,8578.6,FMP36525,5626.55,2813.275
+"Jbs Tolleson, Inc.",651 S 91st Ave,Tolleson,Maricopa County,85353,2245,7200.9,FMP51166,4722.95,2361.475
+"Phoenix Formulations, LLC",465 W 21st St Ste 101,Tempe,Maricopa County,85282,715.5,2295,FMP42636,1505.25,752.625
+"La Canasta Mexican Food Products, Inc.",3101 W Jackson St,Phoenix,Maricopa County,85009,615.9,1975.5,FMP32389,1295.7,647.85
+Adelante Concepts Inc,3101 W Jackson St,Phoenix,Maricopa County,85009,438,1404.9,FMP32390,921.45,460.725
+"APS Biogroup, LLC",2235 S Central Ave,Phoenix,Maricopa County,85004,316.1,1013.9,FMP24370,665,332.5
+"C C Foods, Inc.",3348 E Wier Ave,Phoenix,Maricopa County,85040,291,933.3,FMP34519,612.15,306.075
+"Herbally Yours, Inc.",1504 W San Pedro St,Gilbert,Maricopa County,85233,283.1,908.1,FMP13844,595.6,297.8
+Capistrano's Bakery Inc.,2635 S 24th St,Phoenix,Maricopa County,85034,264.3,847.7,FMP28321,556,278
+"R. & S. Mexican Food Products, Inc.",5818 W Maryland Ave,Glendale,Maricopa County,85301,237.8,762.8,FMP48143,500.3,250.15
+"Southwest Baking Company, LLC",9600 W Buckeye Rd,Tolleson,Maricopa County,85353,217.2,696.7,FMP60799,456.95,228.475
+"Red Eagle Enterprises, Incorporated",12946 W Santa Fe Dr,Surprise,Maricopa County,85378,212.7,682.2,FMP9728,447.45,223.725
+"Nutritional Manufacturing Services, LLC",3305 N Delaware St,Chandler,Maricopa County,85225,212,680,FMP34177,446,223
+"United American Industries, Inc.",1203 W San Pedro St,Gilbert,Maricopa County,85233,204.7,656.7,FMP7751,430.7,215.35
